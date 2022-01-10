@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sign_up"
+    >
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/carparking"
+            />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        app:counterOverflowTextAppearance="@color/black"
+        app:startIconDrawable="@drawable/ic_firstname"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="first name"
+            android:id="@+id/fname"
+            android:inputType="text"
+            android:layout_marginTop="10dp"
+            android:layout_margin="10dp"
+            android:layout_marginRight="10dp"
+
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusableInTouchMode="true"
+            android:focusable="true"
+            app:counterOverflowTextAppearance="@color/black"
+            app:startIconDrawable="@drawable/ic_firstname"
+            >
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="User name"
+                android:id="@+id/Uname"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:layout_margin="10dp"
+                android:layout_marginRight="10dp"
+
+                />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                app:counterOverflowTextAppearance="@color/black"
+                app:counterMaxLength="40"
+                app:startIconDrawable="@drawable/ic_baseline_email_24"
+                >
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email ID"
+                    android:id="@+id/email"
+                    android:ems="10"
+                    android:layout_marginTop="10dp"
+                    android:layout_margin="10dp"
+                    android:layout_marginRight="10dp"
+
+                    />
+
+               <com.google.android.material.textfield.TextInputLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:focusable="true"
+                   android:focusableInTouchMode="true"
+                   app:counterOverflowTextAppearance="@color/black"
+                   app:startIconDrawable="@drawable/ic_phone"
+                   >
+                   <EditText
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:hint="Phone no"
+                       android:maxLength="11"
+                       android:inputType="phone"
+                       android:id="@+id/phone"
+                       android:textColor="@color/black"
+                       android:ems="10"
+                       android:layout_marginTop="10dp"
+                       android:layout_margin="10dp"
+                       android:layout_marginRight="10dp"
+
+                       />
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    app:passwordToggleEnabled="true"
+                    app:counterOverflowTextAppearance="@color/black"
+                    app:startIconDrawable="@drawable/ic_lock"
+                    >
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:maxLength="8"
+                        android:id="@+id/P1"
+                        android:ems="10"
+                        android:hint="Password"
+                        android:textColor="@color/black"
+                        android:inputType="numberPassword"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        />
+
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:focusableInTouchMode="true"
+                        android:focusable="true"
+                        app:passwordToggleEnabled="true"
+                        app:counterOverflowTextAppearance="@color/black"
+                        app:startIconDrawable="@drawable/ic_lock"
+                        >
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:maxLength="8"
+                            android:id="@+id/P2"
+                            android:ems="10"
+                            android:hint="Confirm Password"
+                            android:inputType="numberPassword"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+
+                            />
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Register"
+                            android:textColor="@color/white"
+                            android:alpha="0.5"
+                            android:id="@+id/btn1"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:textSize="15sp"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/tv1"
+                            android:text=""
+                            android:textColor="@color/design_default_color_primary_dark"
+                            />
+
+
+                    </com.google.android.material.textfield.TextInputLayout>
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                </com.google.android.material.textfield.TextInputLayout>
+               </com.google.android.material.textfield.TextInputLayout>
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+</ScrollView>
