@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/profile"
+        android:icon="@drawable/ic_people"
+        android:title="My Profile"/>
+
+    <item android:id="@+id/vehicle"
+        android:icon="@drawable/ic_vehicle"
+        android:title="My Vehicle"/>
+
+
+    <item android:id="@+id/about"
+        android:icon="@drawable/ic_about"
+        android:title="About Us"/>
+
+    <item android:id="@+id/contact"
+        android:icon="@drawable/ic_contacts"
+        android:title="Contact Us"/>
+
+    <item android:id="@+id/logout"
+        android:icon="@drawable/ic_logout"
+        android:title="Logout"
+        android:onClick="btn_logout"
+        />
+
+
+</menu>
