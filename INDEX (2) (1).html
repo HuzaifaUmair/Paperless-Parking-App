@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	
+	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+	
+	<link rel="stylesheet" href="style.css">
+
+	<title>AdminHub</title>
+</head>
+<body>
+
+
+	
+	<section id="sidebar">
+		<a href="#" class="brand">
+			<i class='bx bxs-smile'></i>
+			<span class="text">AdminHub</span>
+		</a>
+		<ul class="side-menu top">
+			<li class="active">
+				<a href="#">
+					<i class='bx bxs-dashboard' ></i>
+					<span class="text">Dashboard</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class='bx bxs-shopping-bag-alt' ></i>
+					<span class="text">Booking</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class='bx bxs-doughnut-chart' ></i>
+					<span class="text">Vehicle</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class='bx bxs-message-dots' ></i>
+					<span class="text">Parking Slot</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class='bx bxs-message-dots' ></i>
+					<span class="text">Payment</span>
+				</a>
+			</li>
+		</ul>
+		<ul class="side-menu">
+			<li>
+				<a href="#">
+					<i class='bx bxs-group' ></i>
+					<span class="text">User Management</span>
+				</a>
+			</li>
+			<li>
+				<a href="#" class="logout">
+					<i class='bx bxs-log-out-circle' ></i>
+					<span class="text">Logout</span>
+				</a>
+			</li>
+		</ul>
+	</section>
+	
+
+
+
+	
+	<section id="content">
+		
+
+			
+	
+
+		
+		<main>
+			<div class="head-title">
+				<div class="left">
+					<h1>Dashboard</h1>
+					<ul class="breadcrumb">
+						<li>
+							<a href="#">Dashboard</a>
+						</li>
+						<li><i class='bx bx-chevron-right' ></i></li>
+						<li>
+							<a class="active" href="#">Home</a>
+						</li>
+					</ul>
+				</div>
+				
+			</div>
+
+			<ul class="box-info">
+				<li>
+					<i class='bx bx-search' ></i>
+					<span class="text">
+						
+						<p><b> Booking</b></p>
+					</span>
+				</li>
+				<li>
+					<i class='bx bx-search' ></i>
+					<span class="text">
+						
+						<p><b>Total Parking Slot</b></p>
+					</span>
+				</li>
+				<li>
+					<i class='bx bx-search' ></i>
+					<span class="text">
+						
+						<p><b>Total Vehicle</b></p>
+					</span>
+				</li>
+			</ul>
+
+
+			<div class="table-data">
+				<div class="order">
+					<div class="head">
+						<h3>Recent Bookings</h3>
+						<i class='bx bx-search' ></i>
+						<i class='bx bx-filter' ></i>
+					</div>
+						<table>
+							<thead>
+								
+							</thead>
+<table class="table table-bordered table-striped table-hover table-condensed table-responsive">
+  <thead>
+    <tr>
+      <th>
+        User
+      </th>
+      <th>
+        Date of Booking
+      </th>
+      <th>
+        Slot No.
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        Huzaifa Umair
+      </td>
+      <td>
+       12-1-2022
+      </td>
+      <td>
+       3
+      </td>
+	  <td>
+		<input type="button" id="edit_button1" value="Edit" class="edit" onclick="edit_row('1')">
+		<input type="button" id="save_button1" value="Save" class="save" onclick="save_row('1')">
+		<input type="button" value="Delete" class="delete" onclick="delete_row('1')">
+		</td>
+    </tr>
+    <tr>
+      <td>
+        Zohaib Hassan
+      </td>
+      <td>
+        13-1-2022
+      </td>
+      <td>
+      1
+      </td>
+	  <td>
+		<input type="button" id="edit_button1" value="Edit" class="edit" onclick="edit_row('1')">
+		<input type="button" id="save_button1" value="Save" class="save" onclick="save_row('1')">
+		<input type="button" value="Delete" class="delete" onclick="delete_row('1')">
+		</td>
+    </tr>
+    <tr>
+      <td>
+        Ashir Akbar
+      </td>
+      <td>
+        14-1-2022
+      </td>
+      <td>
+       2
+      </td>
+	  <td>
+		<input type="button" id="edit_button1" value="Edit" class="edit" onclick="edit_row('1')">
+		<input type="button" id="save_button1" value="Save" class="save" onclick="save_row('1')">
+		<input type="button" value="Delete" class="delete" onclick="delete_row('1')">
+		</td>
+    </tr>
+    <tr>
+      <td>
+        M.Waqas
+      </td>
+      <td>
+        15-1-2022
+      </td>
+      <td>
+       4
+      </td>
+	  <td>
+		<input type="button" id="edit_button1" value="Edit" class="edit" onclick="edit_row('1')">
+		<input type="button" id="save_button1" value="Save" class="save" onclick="save_row('1')">
+		<input type="button" value="Delete" class="delete" onclick="delete_row('1')">
+		</td>
+    </tr>
+  </tbody>
+</table>
+							<tbody>
+								<tr>
+					</div>
+					
+							
+							
+				</div>
+				
+			</div>
+		</main>
+		
+	</section>
+
+	
+	
+
+	<script src="script.js"></script>
+</body>
+</html>
