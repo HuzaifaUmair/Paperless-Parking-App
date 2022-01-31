@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Vehicledetail">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vehicle name"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="10dp"
+
+        />
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusableInTouchMode="true"
+        android:layout_marginTop="5dp"
+        android:focusable="true"
+        app:counterOverflowTextAppearance="@color/black"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter vehicle name"
+            android:id="@+id/name"
+            android:ems="10"
+            android:layout_marginTop="20dp"
+            android:layout_margin="10dp"
+            android:layout_marginRight="10dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Veicle type"
+            android:layout_marginLeft="10dp"
+            />
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusableInTouchMode="true"
+            android:focusable="true"
+            app:counterOverflowTextAppearance="@color/black"
+            >
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter vehicle type"
+                android:id="@+id/type"
+                android:ems="10"
+                android:layout_marginTop="20dp"
+                android:layout_margin="10dp"
+                android:layout_marginRight="10dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vehicle No"
+                android:layout_marginLeft="10dp"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:focusableInTouchMode="true"
+                android:focusable="true"
+                app:counterOverflowTextAppearance="@color/black">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter vehicle number"
+                    android:id="@+id/number"
+                    android:ems="10"
+                    android:layout_marginTop="20dp"
+                    android:layout_margin="10dp"
+                    android:layout_marginRight="10dp"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Other detail"
+                    android:layout_marginLeft="10dp"/>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:focusableInTouchMode="true"
+                    android:focusable="true"
+                    app:counterOverflowTextAppearance="@color/black">
+
+
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Enter other detail"
+                        android:id="@+id/detail"
+                        android:ems="10"
+                        android:layout_marginTop="20dp"
+                        android:layout_margin="10dp"
+                        android:layout_marginRight="10dp"
+
+                        />
+
+
+                    <Button
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="110dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="105dp"
+                        android:text="Add vehicle"
+                        android:id="@+id/addv"
+                        />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </com.google.android.material.textfield.TextInputLayout>
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>

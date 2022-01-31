@@ -25,7 +25,8 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="User name"
+                android:hint="Email"
+                android:id="@+id/email"
                 android:textColor="@color/black"
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="10dp"
@@ -43,6 +44,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="Password"
+                    android:id="@+id/P1"
                     android:inputType="text"
                     android:layout_marginTop="20dp"
                     android:layout_margin="10dp"
@@ -58,17 +60,16 @@
                     android:layout_marginRight="10dp"
                     android:textSize="15sp"
                     android:alpha="0.5"
+                    android:onClick="btn_login"
                     />
-                <Button
-                    android:layout_width="match_parent"
+                <TextView
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginRight="10dp"
-                    android:alpha="0.5"
-                    android:text="Register"
-                    android:textSize="15sp"
-                    android:onClick="btn_Signup"
+                    android:text="Don't have an account"
+                    android:textSize="20sp"
+
+                    android:onClick="Sign_up"
+
                     />
 
 
