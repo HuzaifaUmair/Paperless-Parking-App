@@ -8,3 +8,13 @@ This is an application. This application gives information about the occupancy s
 1.	Auto recognition of number plate when the car enters the parking area. 
 2.	Smart Process mean when the car enters, no need to register manually and take paper for parking number.
 3.	Live Occupancy detail, user can see all details about his vehicle.
+
+**what does the project not provide**
+
+1.	Car verification
+2.	User identification
+3.	Credit card payment
+
+**which tools and technologies used in this project**
+
+Android Studio, Java, XML, Databse Firebase.
