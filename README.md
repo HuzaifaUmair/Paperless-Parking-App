@@ -1,2 +1,2 @@
-# Paperless-Parking-App-Week1
+# Paperless-Parking-App
 Paperless Parking System App
