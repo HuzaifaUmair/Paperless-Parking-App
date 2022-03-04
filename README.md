@@ -18,3 +18,6 @@ This is an application. This application gives information about the occupancy s
 **which tools and technologies used in this project**
 
 Android Studio, Java, XML, Databse Firebase.
+
+**for more detail about this project you can watch video by using this link**
+https://drive.google.com/file/d/1UtMIUokcRq6EHt3ZKpgzESjZfeRaJ2Pc/view?usp=sharing
