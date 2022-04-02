@@ -20,9 +20,15 @@ This is an application. This application gives information about the occupancy s
 Android Studio, Java, XML, Databse Firebase.
 
 **Requirements of this app for running smoothly **
+
+
 At least your device version 7.
 
 **How the sensor will work with application **
+
+
+
+
 sensor coding in paython and connected to the firebase. All updating  of slote store in database and we  can update all data from the the app. 
 
 **for more detail about this project you can watch video by using this link**
