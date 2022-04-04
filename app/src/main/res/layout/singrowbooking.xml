@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    app:cardBackgroundColor="#7884CC"
+    android:outlineSpotShadowColor="#7884CC"
+    android:outlineAmbientShadowColor="#7884CC"
+    android:layout_marginTop="10dp"
+    android:id="@+id/single_card">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="#Slot1"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textFontWeight="700"
+            android:id="@+id/slot_name"
+            />
+
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="180dp"
+            android:src="@drawable/car"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Car Number"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textFontWeight="700"
+            android:id="@+id/car_number"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            android:textFontWeight="500"
+            android:id="@+id/date"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Payment Status"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            android:textFontWeight="500"
+            android:id="@+id/payment"
+            />
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:layout_marginTop="10sp"
+           >
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Entrance Time"
+               android:textColor="@color/white"
+               android:textSize="20sp"
+               android:id="@+id/etime"
+               />
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Exit Time"
+               android:textColor="@color/white"
+               android:textSize="20sp"
+               android:layout_marginLeft="130sp"
+               android:id="@+id/extime"
+               />
+       </LinearLayout>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/cardbtn_bg"
+            android:text="Increase Exit Time"
+
+            android:id="@+id/btn_booking"
+
+            ></Button>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

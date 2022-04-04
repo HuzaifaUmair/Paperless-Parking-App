@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group>
+
+            <item android:title="Profile" android:id="@+id/profile"
+                android:icon="@drawable/user"
+                ></item>
+
+            <item android:title="Booking" android:id="@+id/booking"
+                android:icon="@drawable/booking"
+                ></item>
+
+
+            <item android:id="@+id/share"
+                android:title="Share"
+                android:icon="@drawable/share"></item>
+    <item android:title="Report" android:id="@+id/account"
+        android:icon="@drawable/account"
+        ></item>
+    <item android:title="Exit" android:id="@+id/exit"
+        android:icon="@drawable/exit"
+        ></item>
+
+</group>
+</menu>
